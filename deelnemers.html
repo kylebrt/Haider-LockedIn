@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nieuw Uitje</title>
+    <link rel="stylesheet" href="look.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="uitje.html">Nieuw Uitje</a></li>
+            <li><a href="deelnemers.html">Deelnemers Toevoegen</a></li>
+            <li><a href="kosten.html">Kosten Toevoegen</a></li>
+            <img src="dokkie logo.png" alt="Logo" style="width:50px;height: 50px;margin-left:15px;">
+        </ul>
+    </div>
+
+    <div class="uitje">
+    
+        <div class="add-deelnemer">
+            <form id="addDeelnemerForm">
+                <label for="newDeelnemer">Nieuwe deelnemer:</label>
+                <input type="text" id="newDeelnemer" placeholder="Naam van de deelnemer" required>
+                <button type="submit">Voeg deelnemer toe</button>
+            </form>
+            <ul id="savedTrips"></ul>
+        </div>
+    </div>
+
+    <script src="/src/deelnemers.ts"></script>
+
+</body>
+</html>

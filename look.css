@@ -1,0 +1,122 @@
+body{
+
+  background-color: #ff7b34;
+}
+
+img { 
+    float: right
+  }
+
+.uitje 
+ul {
+    list-style-type: none;
+    position: absolute;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+.add-deelnemer 
+form 
+{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 400px;
+    height: 130px;
+}
+
+.beschrijving {
+    background-color: #333;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+.beschrijving p {
+        font-size: 16px;
+        color: white;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0;
+    }    
+
+
+
+  .navbar
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+textarea {
+    resize: none
+}
+
+
+  .form-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff7b34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b1b;
+}
+

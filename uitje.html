@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nieuw Uitje</title>
+        <link rel="stylesheet" href="look.css">
+    </head>
+    <body>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="uitje.html">Nieuw Uitje</a></li>
+                <li><a href="deelnemers.html">Deelnemers Toevoegen</a></li>
+                <li><a href="kosten.html">Kosten Toevoegen</a></li>
+                <img src="dokkie logo.png" alt="Logo" style="width:50px;height: 50px;margin-left:15px;">
+              </ul>
+            </div>
+            
+    <div class="header">
+        <h1>Plan een uitje</h1>
+    </div>
+        
+    <div class="form-container">
+        <form id="uitjeForm">
+             <label for="title">Titel van het uitje:</label><br>
+             <input type="text" id="title" name="title" required><br><br>
+             <button type="submit">Opslaan</button>
+             <button id="resetButton">Reset Uitjes</button>
+        </form>
+    </div>
+    
+    <script src="/src/uitje.ts" defer></script>
+    </body>
+    
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosten Toevoegen</title>
+    <link rel="stylesheet" href="look.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="uitje.html">Nieuw Uitje</a></li>
+            <li><a href="deelnemers.html">Deelnemers Toevoegen</a></li>
+            <li><a href="kosten.html">Kosten Toevoegen</a></li>
+            <img src="dokkie logo.png" alt="Logo" style="width:50px;height: 50px;margin-left:15px;">
+        </ul>
+    </div>
+
+    <h1 id="uitjeTitle">Kosten voor: </h1>
+
+    <div class="form-container">
+        <form id="kostenForm">
+            <label for="datum">Datum:</label>
+            <input type="date" id="datum" required><br><br>
+
+            <label for="omschrijving">Omschrijving:</label>
+            <input type="text" id="omschrijving" placeholder="Bijv. Water" required><br><br>
+
+            <label for="bedrag">Bedrag:</label>
+            <input type="number" id="bedrag" min="0.01" step="0.01" placeholder="0.00" required><br><br>
+
+            <label for="deelnemer">Betaling door:</label>
+            <select id="deelnemer" required>
+
+            </select><br><br>
+
+            <button type="submit">Kosten Opslaan</button>
+        </form>
+    </div>
+
+    <h2>Opgeslagen Kosten</h2>
+    <ul id="savedCosts"></ul>
+
+    <script src="/src/kosten.ts" defer></script>
+</body>
+</html>
